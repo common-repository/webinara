@@ -1,0 +1,538 @@
+.webi-metabox .webi-metabox-field{
+	margin-bottom: 10px;
+}
+
+.webi_publish_event_msg{
+	color: #0073aa;
+	display: none;
+	font-style: italic;
+}
+
+.clr{
+	clear:both;
+}
+
+.webi_remove_speaker{
+	display: none;
+}
+
+.webi_speakerimg img, .webi_speakerimg a{
+	float: left;
+	margin-right: 20px !important;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.webi-metabox .form-field input[type='text'],
+.webi-metabox .form-field textarea,
+.webi-metabox .form-field select,
+.webi_upgrade_section  table tr td input[type='text'],
+.webi_upgrade_section  table tr td textarea,
+.webi_profile_section  table tr td input[type='text'],
+.webi_profile_section  table tr td textarea{
+	width: 100%;
+}
+
+
+.webi_upgrade_section .form-table,
+.webi_profile_section .form-table{
+	width: 60%;
+}
+.webi-metabox .chosen-single, .webi_upgrade_section table tr td .chosen-single,
+.webi_profile_section table tr td .chosen-single{
+	border-radius: unset !important;
+    box-shadow: none;
+    background: none;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.webi_addi_field{
+	display: none;
+}
+
+.license_exp_message{
+	font-size: 13px !important;
+	color: #FF0000 !important;
+}
+
+.webi_tz_zoom{
+	display: none;
+}
+
+.webi-metabox .chosen-container,
+.webi_upgrade_section .chosen-container,
+.webi_profile_section .chosen-container{
+	width: 100% !important;
+}
+
+.form-field{width: 100%; margin-bottom: 0px; margin-top: 1.5em;}
+.form-field.sec_2{
+	width: calc(50% - 10px);
+	margin-bottom: 0px;
+}
+
+.form-field.sec_3{
+	width: calc(33% - 10px);
+	margin-bottom: 0px;
+}
+
+.repeated_speaker_section p:nth-child(2), .repeated_speaker_section p:nth-child(4), .repeated_speaker_section p:nth-child(6), .repeated_speaker_section p:nth-child(8), .venue_section p:nth-child(3), .venue_section p:nth-child(5), 
+.repeated_attachment_section p:nth-child(2),
+.repeated_attachment_section p:nth-child(4),
+.repeated_caroselimg_section p:nth-child(2),
+.repeated_caroselimg_section p:nth-child(4),
+.repeated_sponsorimg_section p:nth-child(2),
+.repeated_sponsorimg_section p:nth-child(4),
+.normal_sec p:nth-child(3){
+	margin-left: 20px;	
+}
+
+#webi_datetime input[type="text"]:disabled {
+  background: #F9F9F9 !important;
+}
+
+#webi_datetime p:nth-child(2), #webi_datetime p:nth-child(3), #webi_datetime p:nth-child(5), #webi_datetime p:nth-child(6){
+	margin-left: 19px;
+}
+
+.allday_opt, .featured_opt{
+	margin-top: 28px !important;
+}
+
+.webi-metabox .form-field label, .webi_label{
+	font-weight: 700;
+	display: block;
+    margin: 0 0 5px;
+    padding: 0;
+}
+.ui-timepicker-wrapper{
+	width: 259px !important;
+}
+
+.speaker_section,
+.attachment_section,
+.caroselimg_section{
+	background: #F9F9F9;	
+}
+
+.webi_attach_action a, .webi_caro_action a, .webi_sponsor_action a{
+	margin-right: 15px !important;
+}
+
+.repeated_speaker_section, .repeated_attachment_section, .repeated_caroselimg_section, .repeated_sponsorimg_section{	
+	padding: 0 15px;
+	border-bottom: #EEEEEE solid 1px;
+	display: flex;
+    justify-content: initial;
+    flex-wrap: wrap;
+	padding-bottom: 15px;
+}
+
+#webi_datetime, .venue_section, .normal_sec{
+	display: flex;
+    justify-content: initial;
+    flex-wrap: wrap;
+}
+
+.#header-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    text-align: right;
+}
+
+.webi_remove_attachment, .webi_remove_imgcarosel, .webi_remove_imgsponsor{
+	display: none;
+}
+
+.webi-wrap .grid-layout-wrapper .grid-layout{
+	width: 30%;
+	float: left;
+}
+
+.webi_imgcarosel_fld img,
+.webi_imgsponsor_fld img{
+	max-width: 120px
+}
+
+.webi_formtable{
+	border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+
+.webi_formtable tr th{
+	padding: 1em 0 1em 1em;
+	text-align: left;    
+    font-size: 14px;
+	font-weight: 400
+}
+
+.webi_formtable tr td input[type='text'], .webi_formtable tr td select{
+	width: 100%;
+    min-width: 100px;
+}
+
+.webi_formtable tr td {
+    overflow: visible;
+    padding: 1em 0 1em 1em;
+    vertical-align: middle;
+}
+
+.webi_formtable tr:nth-child(odd) td {
+    background-color: #F9F9F9;
+}
+
+table.webi_formtable{
+	background: #fff;
+}
+
+/*************************** Tab *********************************/
+
+.tabs {
+	width:100%;
+	display:inline-block;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+	.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+
+.tab-links{
+	margin-bottom: 0px !important;
+}
+
+.tab-links li {
+	margin:0px 5px;
+	float:left;
+	list-style:none;
+}
+
+.tab-links a {
+	padding:9px 15px;
+	display:inline-block;
+	border-radius:3px 3px 0px 0px;
+	background:#e5e5e5;
+	font-size:16px;
+	font-weight:600;
+	color:#4c4c4c;
+	transition:all linear 0.15s;
+}
+
+.tab-links a:hover {
+	background:#e5e5e5;
+	text-decoration:none;
+}
+
+li.active a, li.active a:hover {
+	background:#fff;
+	color:#4c4c4c;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding:15px;
+	border-radius:3px;	
+	background:#fff;
+}
+
+.tab {
+	display:none;
+}
+
+.tab.active {
+	display:block;
+}
+
+.tab-links li:first-child{
+	margin-left: 0px !important;
+}
+
+/********************************************************************/
+
+.license_fld{
+	width: 100%;
+}
+
+.license_info{
+	font-size: 14px
+}
+
+.license_button{
+	text-align: right;
+}
+
+.webi_connect_section{
+	padding: 0 15px 20px 15px;	
+}
+
+.webi_connect_section input[type='text']{
+	width: 100%
+}
+
+
+.webi_formtable tr:nth-child(odd) td {
+    background-color: #F9F9F9;
+}
+.platform_section{
+	border-bottom: solid 1px #F9F9F9;
+}
+
+.webi_connect_section{
+	display: none;
+}
+
+.wp-editor-wrap{
+	width: 100%;
+}
+
+.req_label{
+	color: #FF6D46;
+	display: none;
+	font-weight: 700;
+}
+
+.webi_loader{
+	margin-left: 10px;
+	display: none;
+}
+
+.err{
+	color: #FF0000 !important;
+}
+
+#goto_status, #zoom_status, #onstream_status, #readytalk_status{
+	color: #008000;
+	font-weight: 700;
+}
+
+.tab-links a, #tab1 a, #tab2 a, #tab3 a{
+	text-decoration: none !important
+}
+
+.license_info span{
+	font-weight: 700 !important; color: #008000 !important
+}
+
+.webi_con_response{
+	display: none;
+	color: #008000;
+	font-weight: 700;
+}
+
+.connectsec_top div, .connectsec_top p{
+	float: left;
+}
+
+.connectsec_top p{
+	margin-left: 20px;
+}
+
+.video_fld{
+	margin-bottom: 20px;
+}
+
+
+.webi_video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.webi_video img {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    /*height: 300px;*/
+    z-index: 20;
+    cursor: pointer;
+}
+.webi_video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 390px;
+    /*width: 500px;*/
+    height: 100%;
+}
+
+/* image poster clicked, player class added using js */
+.webi_video.player img { display: none; }
+.webi_video.player:after { display: none; }
+
+.webi_pageinfo{font-weight: 700; font-style: italic; color: #ff6e47;}
+
+
+.webi_conf_dialog-ovelay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.50);
+    z-index: 999999
+}
+.webi_conf_dialog-ovelay .dialog {
+    width: 500px;
+    margin: 100px auto 0;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    border-radius: 3px;
+    overflow: hidden
+}
+.webi_conf_dialog-ovelay .dialog header {
+    padding: 14px 8px;
+    background-color: #f6f7f9;
+    border-bottom: 1px solid #e5e5e5
+}
+.webi_conf_dialog-ovelay .dialog header h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #555;
+    display: inline-block
+}
+.webi_conf_dialog-ovelay .dialog header .fa-close {
+    float: right;
+    color: #c4c5c7;
+    cursor: pointer;
+    transition: all .5s ease;
+    padding: 0 2px;
+    border-radius: 1px    
+}
+.webi_conf_dialog-ovelay .dialog header .fa-close:hover {
+    color: #b9b9b9
+}
+.webi_conf_dialog-ovelay .dialog header .fa-close:active {
+    box-shadow: 0 0 5px #673AB7;
+    color: #a2a2a2
+}
+.webi_conf_dialog-ovelay .dialog .dialog-msg {
+    padding: 12px 10px
+}
+.webi_conf_dialog-ovelay .dialog .dialog-msg p{
+    margin: 0;
+    font-size: 15px;
+    color: #333
+}
+.webi_conf_dialog-ovelay .dialog footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 12px 10px
+}
+.webi_conf_dialog-ovelay .dialog footer .controls {
+    direction: rtl
+}
+.webi_conf_dialog-ovelay .dialog footer .controls .button {
+    padding: 5px 15px;
+    border-radius: 3px
+}
+.webi_conf_button {
+  cursor: pointer
+}
+.webi_conf_button-default {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    color: #5D5D5D;
+	padding: 5px 10px;
+	margin-right: 5px
+}
+.webi_conf_button-danger {
+    background-color: #f44336;
+    border: 1px solid #d32f2f;
+    color: #f5f5f5;
+	padding: 5px 10px;
+}
+.webi_conf_link {
+  padding: 5px 10px;
+  cursor: pointer
+}
+
+.disconnect_btn{
+	display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+	background: #ff0000;
+    border-color: #FF6347;
+	box-shadow: 0 1px 0 #FF6347;
+    color: #fff !important;
+}
+
+.disconnect_btn:hover{
+	color: #fff !important;
+}
+
+.publish_opt input{
+	margin-left:5px !important;
+	margin-top: 0px !important;
+}
+
+.webi_upgrade_section{
+	display: none;
+}
+
+.webi_upgrade_section table input{
+	width: 100%;
+}
+
+.acc_response{
+	display: none;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.webi_fremium_sec{
+	margin-top: 25px;
+	margin-bottom: 70px
+}
+
+.up_response{
+	display: none;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.succ{
+	color: #008000 !important;
+}
+
+.loading_state{
+	opacity: 0.3 !important;
+    pointer-events: none !important;
+}  
+
+.renew_button{margin-left: 10px !important;}
+
+.gotowebinar_id_section{
+	display: none;
+}
+
+.onstream_msg_section{
+	display: none;
+	color: #008000 !important;
+}
